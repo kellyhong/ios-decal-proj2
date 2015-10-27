@@ -24,7 +24,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="newGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eNw-8G-fJV"/>
+                                    <action selector="newGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3jN-gc-EOu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Letters Guessed:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cS-7h-uED">
@@ -68,18 +68,17 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="guess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Mf-oR-q9k"/>
+                                    <action selector="guess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vJd-cV-rMU"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="guessALetter" destination="7iy-hL-oM7" id="YFl-mP-PkQ"/>
-                        <outlet property="hangman" destination="FpP-jC-NZ5" id="Ncc-ly-2fU"/>
-                        <outlet property="letters" destination="X0q-Sf-mv9" id="5Uc-m7-mD1"/>
-                        <outlet property="lettersGuessed" destination="8cS-7h-uED" id="wnc-mI-CFa"/>
-                        <outlet property="newGame" destination="cZK-GY-ZMk" id="hh9-SV-S5S"/>
+                        <outlet property="guessALetter" destination="7iy-hL-oM7" id="bqm-IF-YEg"/>
+                        <outlet property="hangman" destination="FpP-jC-NZ5" id="kZQ-Je-Grp"/>
+                        <outlet property="letters" destination="X0q-Sf-mv9" id="kJ6-IQ-4tF"/>
+                        <outlet property="lettersGuessed" destination="8cS-7h-uED" id="Le2-2q-BXH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
