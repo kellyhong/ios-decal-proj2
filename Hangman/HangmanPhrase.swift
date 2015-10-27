@@ -10,7 +10,7 @@ import Foundation
 
 class HangmanPhrase {
     var phrases : NSArray!
-    
+
     // Initialize HangmanPhrase with an array of all possible phrases of the Hangman game
     init() {
         let path = NSBundle.mainBundle().pathForResource("phrases", ofType: "plist")
@@ -22,5 +22,5 @@ class HangmanPhrase {
         let ind = Int(arc4random_uniform(UInt32(phrases.count)))
         return phrases.objectAtIndex(ind) as! String
     }
-    
+
 }

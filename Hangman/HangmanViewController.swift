@@ -37,7 +37,7 @@ class HangmanViewController: UIViewController {
         x = Hangman()
         x.start()
         letters.text = x.knownString
-        letters.becomeFirstResponder()
+        guessALetter.becomeFirstResponder()
     }
     
     @IBAction func guess(sender: AnyObject) {
@@ -130,7 +130,8 @@ class HangmanViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-//        newGame()
+        newGame()
+
     }
 
     override func didReceiveMemoryWarning() {
