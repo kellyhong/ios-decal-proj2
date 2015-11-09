@@ -43,23 +43,12 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0q-Sf-mv9">
-                                <rect key="frame" x="259" y="370" width="42" height="21"/>
+                                <rect key="frame" x="259" y="370" width="200" height="21"/>
                                 <color key="backgroundColor" red="1" green="0.82965495185404425" blue="0.92067492540775264" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICE-LE-Nbk">
-                                <rect key="frame" x="248" y="494" width="88" height="30"/>
-                                <color key="backgroundColor" red="0.085284412840000004" green="1" blue="0.76817561010000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Guess!">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="guess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vJd-cV-rMU"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZK-GY-ZMk">
                                 <rect key="frame" x="20" y="28" width="88" height="30"/>
                                 <color key="backgroundColor" red="0.085284412837292933" green="1" blue="0.76817561013505031" alpha="1" colorSpace="calibratedRGB"/>
@@ -70,6 +59,17 @@
                                 <connections>
                                     <action selector="newGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="NHZ-f6-ZJI"/>
                                     <action selector="newGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3jN-gc-EOu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICE-LE-Nbk">
+                                <rect key="frame" x="103" y="434" width="88" height="30"/>
+                                <color key="backgroundColor" red="0.085284412840000004" green="1" blue="0.76817561010000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Guess!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="guess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vJd-cV-rMU"/>
                                 </connections>
                             </button>
                         </subviews>

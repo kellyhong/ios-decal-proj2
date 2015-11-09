@@ -42,15 +42,17 @@ class Hangman {
         if guessedLetters!.containsObject(letter) {
             return true
         }
-        guessedLetters!.addObject(letter)
         var chars = Array(answer!.characters)
         
         for (var i = 0; i < answer!.characters.count; i += 1) {
-            if String(chars[i]) == letter {
+            if String(chars[i]).lowercaseString == letter {
                 isCorrect = true
                 knownString = "\((knownString! as NSString).substringToIndex(i))" + "\(letter)"
                     + "\((knownString! as NSString).substringFromIndex(i+1))"
             }
+        }
+        if (!isCorrect) {
+            guessedLetters!.addObject(letter)
         }
         return isCorrect
     }
@@ -60,9 +62,14 @@ class Hangman {
         if guessedLetters!.count == 0 {
             return ""
         }
-        var result = ""
+        var result: String!
         for (var i = 0; i < guessedLetters!.count; i += 1) {
-            result = result + ", \(guessedLetters?.objectAtIndex(i) as! String)"
+            let curr = guessedLetters![i]
+            if (result == nil) {
+                result = "Guessed: \(curr)"
+            } else {
+                result = result + ", \(curr)"
+            }
         }
         return result
     }

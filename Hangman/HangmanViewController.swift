@@ -30,6 +30,7 @@ class HangmanViewController: UIViewController {
 //    }
     
     @IBAction func newGame() {
+    
         gameOver = false
         counter = 1
         lettersGuessed.text = " "

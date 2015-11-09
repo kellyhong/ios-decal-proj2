@@ -15,6 +15,8 @@
 		3A2BBF6D1BCDDDA900B23285 /* HangmanWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BBF6C1BCDDDA900B23285 /* HangmanWords.swift */; settings = {ASSET_TAGS = (); }; };
 		3A2BBF6F1BCDDEBB00B23285 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A2BBF6E1BCDDEBB00B23285 /* words.plist */; settings = {ASSET_TAGS = (); }; };
 		3A2BBF731BCDE37800B23285 /* Hangman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BBF721BCDE37800B23285 /* Hangman.swift */; settings = {ASSET_TAGS = (); }; };
+		410E51A71BF15C2900E33069 /* phrases.plist in Resources */ = {isa = PBXBuildFile; fileRef = 410E51A61BF15C2900E33069 /* phrases.plist */; settings = {ASSET_TAGS = (); }; };
+		41AB75321BF15E8F008782E2 /* basic-hangman-img in Resources */ = {isa = PBXBuildFile; fileRef = 41AB75311BF15E8F008782E2 /* basic-hangman-img */; settings = {ASSET_TAGS = (); }; };
 		41CAF9971BDF1DC400919DD5 /* HangmanPhrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CAF9961BDF1DC400919DD5 /* HangmanPhrase.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		3A2BBF6C1BCDDDA900B23285 /* HangmanWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanWords.swift; sourceTree = "<group>"; };
 		3A2BBF6E1BCDDEBB00B23285 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
 		3A2BBF721BCDE37800B23285 /* Hangman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hangman.swift; sourceTree = "<group>"; };
+		410E51A61BF15C2900E33069 /* phrases.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = phrases.plist; sourceTree = SOURCE_ROOT; };
+		41AB75311BF15E8F008782E2 /* basic-hangman-img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "basic-hangman-img"; path = "../../../../../../.Trash/basic-hangman-img"; sourceTree = "<group>"; };
 		41CAF9961BDF1DC400919DD5 /* HangmanPhrase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanPhrase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +66,7 @@
 		3A2BBF581BCDDAC200B23285 /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
+				41AB75311BF15E8F008782E2 /* basic-hangman-img */,
 				3A2BBF711BCDE36400B23285 /* API */,
 				3A2BBF701BCDE24000B23285 /* Views */,
 				3A2BBF6B1BCDDD7B00B23285 /* Words */,
@@ -77,6 +82,7 @@
 		3A2BBF6B1BCDDD7B00B23285 /* Words */ = {
 			isa = PBXGroup;
 			children = (
+				410E51A61BF15C2900E33069 /* phrases.plist */,
 				3A2BBF6C1BCDDDA900B23285 /* HangmanWords.swift */,
 				3A2BBF6E1BCDDEBB00B23285 /* words.plist */,
 			);
@@ -157,10 +163,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41AB75321BF15E8F008782E2 /* basic-hangman-img in Resources */,
 				3A2BBF6F1BCDDEBB00B23285 /* words.plist in Resources */,
 				3A2BBF641BCDDAC200B23285 /* LaunchScreen.storyboard in Resources */,
 				3A2BBF611BCDDAC200B23285 /* Assets.xcassets in Resources */,
 				3A2BBF5F1BCDDAC200B23285 /* Main.storyboard in Resources */,
+				410E51A71BF15C2900E33069 /* phrases.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
